@@ -1,0 +1,145 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../_scss/screen.scss */
+body {
+  font-size: 62.5%;
+  font-family: "Helvetica neueu", Helvetica, Arial, sans-serif;
+}
+
+/* line 9, ../_scss/screen.scss */
+#container {
+  font-size: 1.8em;
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+/* line 11, ../_scss/screen.scss */
+#container header {
+  margin-bottom: 10px;
+}
+/* line 12, ../_scss/screen.scss */
+#container header h1 {
+  font-size: 2.2em;
+}
+/* line 15, ../_scss/screen.scss */
+#container header h2 {
+  margin-top: 5px;
+}
+/* line 21, ../_scss/screen.scss */
+#container .tweet {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+/* line 22, ../_scss/screen.scss */
+#container .tweet p {
+  width: 350px;
+}
+/* line 27, ../_scss/screen.scss */
+#container .tweet .meta {
+  margin-top: 5px;
+  font-style: italic;
+  font-size: 0.8em;
+}
+/* line 34, ../_scss/screen.scss */
+#container form {
+  width: 350px;
+  margin-bottom: 20px;
+}
+/* line 35, ../_scss/screen.scss */
+#container form legend {
+  display: none;
+}
+/* line 38, ../_scss/screen.scss */
+#container form input[type='text'], #container form label {
+  display: inline-block;
+  width: 340px;
+  height: 70px;
+}
+/* line 43, ../_scss/screen.scss */
+#container form textarea {
+  width: 400px;
+  height: 70px;
+}
+/* line 47, ../_scss/screen.scss */
+#container form input[type=submit] {
+  margin-top: 7px;
+  float: right;
+}
+/* line 51, ../_scss/screen.scss */
+#container form #chars {
+  margin-top: 7px;
+  font-size: 0.7em;
+}
+
+/* line 66, ../_scss/screen.scss */
+.error {
+  background-color: #ffccbb;
+  color: #cc0000;
+}

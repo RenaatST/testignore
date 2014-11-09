@@ -1,0 +1,22 @@
+{
+  "name": "oefening1",
+  "version": "1.0.0",
+  "authors": [
+    "RenaatST <stuijkrenaat@hotmail.com>"
+  ],
+  "description": "oefening1",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "~1.3.0",
+    "moment": "~2.5.1"
+  }
+}

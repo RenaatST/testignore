@@ -1,0 +1,69 @@
+@import "imports";
+@import "base";
+
+body{
+	font-size:62.5%;
+	font-family: "Helvetica neueu", Helvetica, Arial, sans-serif;
+}
+
+#container{
+
+	header{
+		h1{
+			font-size:2.2em;
+		}
+		h2{
+			margin-top:5px;
+		}
+		margin-bottom: 10px;
+	}
+
+	.tweet{
+		p{
+			width:350px;
+		}
+		font-size:0.9em;
+		margin-bottom:20px;
+		.meta{
+			margin-top:5px;
+			font-style:italic;
+			font-size:0.8em;
+		}
+	}
+
+	form{
+		legend{
+			display:none;
+		}
+		input[type='text'], label{
+			display:inline-block;
+			width:340px;
+            height: 70px;
+		}
+        textarea{
+          width: 400px;
+          height: 70px;
+        }
+		input[type=submit]{
+          margin-top: 7px;
+			float:right;
+		}
+		#chars{
+          margin-top: 7px;
+			font-size:0.7em;
+		}
+		width:350px;
+		margin-bottom:20px;
+	}
+
+	font-size:1.8em;
+	width:900px;
+	margin:0 auto;
+	padding-top:30px;
+
+}
+
+.error{
+	background-color: $error_color;
+    color: #cc0000;
+}
